@@ -12,6 +12,16 @@
             "JM\\TMDB\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JM\\TMDB\\TMDBServiceProvider"
+            ],
+            "aliases": {
+                "TMDB": "JM\\TMDB\\Facades\\TMDB"
+            }
+        }
+    },
     "require": {},
     "minimum-stability": "dev",
     "prefer-stable": true

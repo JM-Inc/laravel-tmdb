@@ -1,0 +1,16 @@
+{
+    "name": "jm-inc/laravel-tmdb",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moses",
+            "email": "work@xmoses.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JM\\TMDB\\": "src/"
+        }
+    },
+    "require": {}
+}

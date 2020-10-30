@@ -59,7 +59,7 @@ class TMDB
      */
     public function getMovie($movie_id)
     {
-        return $this->getRequest("movie/{$movie_id}?" . $this->getQuery());
+        return $this->getRequest("movie/{$movie_id}");
     }
 
     private function getRequest($path)

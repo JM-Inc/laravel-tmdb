@@ -48,7 +48,7 @@ class TMDB
 
     public function withTranslation($language)
     {
-        $this->query['append_to_response'][] = "language={$language}";
+        $this->query['append_to_response'][] = "&language={$language}";
         return $this;
     }
 
